@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакты — Amur Baliqchi</title>
+  <meta name="description" content="Связаться с Amur Baliqchi: телефон, email, форма обратной связи и адрес." />
+  <link rel="icon" href="/assets/icons/favicon-32.png" sizes="32x32" />
+  <link rel="icon" href="/assets/icons/favicon.png" sizes="256x256" />
+  <link rel="preload" href="/assets/img/logo.svg" as="image" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Amur Baliqchi", "image": "/assets/img/logo.svg", "url": "https://example.com/", "telephone": "+998 (00) 000-00-00", "address": {"@type": "PostalAddress", "addressCountry": "UZ"}, "description": "Связаться с Amur Baliqchi: телефон, email, форма обратной связи и адрес."}
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/index.html" class="brand">
+      <img src="/assets/img/logo.svg" alt="Amur Baliqchi" width="160" height="40" />
+    </a>
+    <nav class="nav">
+      <a href="/about.html">О компании</a>
+      <a href="/products.html">Продукция</a>
+      <a href="/services.html">Услуги</a>
+      <a href="/contact.html" class="btn btn-primary">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <h1>Контакты</h1>
+  <div class="contact-grid">
+    <form class="card form" onsubmit="return Amur.sendMessage(event)">
+      <label>
+        Имя
+        <input type="text" name="name" required placeholder="Ваше имя" />
+      </label>
+      <label>
+        Телефон
+        <input type="tel" name="phone" required placeholder="+998 ..." />
+      </label>
+      <label>
+        Сообщение
+        <textarea name="message" rows="5" placeholder="Кратко опишите запрос"></textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Отправить</button>
+      <p class="form-note">Форма демонстрационная. Подключите обработчик на сервере или Telegram Bot API.</p>
+    </form>
+    <aside class="card">
+      <h3>Реквизиты</h3>
+      <p>ООО «Amur Baliqchi»<br/>ИНН: 000000000<br/>Ориентир: Ташкентская обл.</p>
+      <p><strong>Телефон:</strong> +998 (00) 000-00-00<br/>
+         <strong>Email:</strong> info@amurbaliqchi.uz</p>
+      <p><strong>График:</strong> Пн–Сб 9:00–18:00</p>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="/assets/img/logo.svg" alt="Amur Baliqchi" width="180" height="48" />
+      <p>Рыбоводческое хозяйство «Amur Baliqchi». Свежая рыба и качественные мальки.</p>
+    </div>
+    <div>
+      <h4>Навигация</h4>
+      <ul>
+        <li><a href="/about.html">О компании</a></li>
+        <li><a href="/products.html">Продукция</a></li>
+        <li><a href="/services.html">Услуги</a></li>
+        <li><a href="/contact.html">Контакты</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Контакты</h4>
+      <ul class="contacts">
+        <li>📞 +998 (00) 000-00-00</li>
+        <li>✉️ info@amurbaliqchi.uz</li>
+        <li>📍 Ташкентская обл., Узбекистан</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <small>© 2025 Amur Baliqchi. Все права защищены.</small>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
